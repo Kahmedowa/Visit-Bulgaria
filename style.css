@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    object-fit: cover;
+}
+
+#erst {
+    font-size: 30px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+h2 {
+   
+            animation: lighteffect 2s linear infinite;
+    }
+
+
+@keyframes lighteffect {
+    0% {
+      color: #ffff00;
+      text-shadow: 0 0 10px #2d5618, 0 0 20px #e1f9b8
+    }
+    85% {
+      color: grey;
+      text-shadow: none;
+    }
+    }
