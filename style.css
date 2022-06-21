@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+
 img {
     object-fit: cover;
 }
@@ -35,3 +36,21 @@ h2 {
       text-shadow: none;
     }
     }
+    #bg {
+      font-size: 6rem;
+    }
+
+    .hover{
+      color: rgb(76, 68, 68);
+    }
+.hover:hover{
+  color: rgb(212, 242, 247);
+}
+
+#card div{
+  background-color: transparent;
+}
+.color{
+  background-color: rgb(212, 242, 247);
+}
+
